@@ -42,3 +42,6 @@ next-env.d.ts
 
 # personal
 Bogdan-roadmap.rtf
+
+# local proof screenshots
+/docs/screenshots/

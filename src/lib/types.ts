@@ -1,14 +1,14 @@
-export type MessageRole = 'user' | 'assistant'
+export type MessageRole = "user" | "assistant";
 
 export interface Message {
-  id: string
-  role: MessageRole
-  text: string
-  createdAt: number
+  id: string;
+  role: MessageRole;
+  text: string;
+  createdAt: number;
 }
 
 export interface Workspace {
-  id: string
-  name: string
-  messages: Message[]
+  id: string;
+  name: string;
+  messages: Message[];
 }
